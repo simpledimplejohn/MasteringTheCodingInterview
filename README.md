@@ -1,8 +1,8 @@
-# __White Boarding With Javascript App__
+# __Mastering The Coding Inteview__
 ### by [John Blalock](https://github.com/simpledimplejohn) 
 
 ### __Description__
-This is an app for learning and practicing JavaScript white boarding exercises.  Each exercise is contained in a file with notes so that it can be repeated.
+A place to explore coding examples in the Udemy course Mastering The Coding Interview.
 
 ### __Technologies Used__
 
