@@ -33,3 +33,19 @@ function funChallenge(input) {
 
 // O(3+4n)
 
+// RULE #1 
+// We always look at the worst case scenario 
+// RULE #2
+// Remove constants 
+// Above is rounded to O(n)
+// RULE #3
+// different terms for inputs
+// O( n + n )
+function copressBoxesTwice(boxes, boxes2) {
+  boxes.array.forEach(element => {
+    console.log(boxes[element]);
+  });
+  boxes2.forEach(element => {
+    console.log(boxes2[element]);
+  });
+};
