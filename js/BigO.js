@@ -49,3 +49,37 @@ function copressBoxesTwice(boxes, boxes2) {
     console.log(boxes2[element]);
   });
 };
+// RULE #4 
+// Drop non dominate terms
+
+// O(!) 
+// Factorial, the worst
+// each input is another nested loop
+
+/////////SPACE COMPLEXITY
+
+//heap holds variables
+//stack keeps track of function calls
+// What Causes Space Complexity:
+// - Variables
+// - Data Structures
+// - function calls
+// - Allocations
+
+function booooooo(n) {
+  for(let i = 0; i < n.length; i++) {
+    console.log('boooo!');
+  }
+}
+booooooo([1,2,3,4,5]);
+// space complexity of O(n)
+
+function arrayOfThings(n) {
+  let newArray = [];
+  for (let i = 0; i < n.length; i++) {
+    newArray[i] = 'stuff'
+  }
+  return newArray
+}
+// O(n) for memeory because you are creating a new datastructure
+
